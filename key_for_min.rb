@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   old_hash = name_hash
   name_hash.collect do |item, number|
-    if number < old_hash[number]
+    if number < old_hash[item]
       min_item = item
     end
     old_hash = {item => number}
