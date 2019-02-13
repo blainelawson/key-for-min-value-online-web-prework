@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     if number < old_hash[number]
       min_item = item
     end
-    old_hash => {item, number}
+    old_hash = {item => number}
   end
   min_item
 end
