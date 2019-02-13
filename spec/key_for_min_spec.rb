@@ -1,4 +1,3 @@
-include binder.pry
 
 describe "smallest hash value" do
 
