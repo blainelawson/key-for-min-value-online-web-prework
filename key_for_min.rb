@@ -11,14 +11,12 @@ def key_for_min_value(name_hash)
       
       if number <= old_hash[item]
         min_item = item
-      else
-        
-        if number <= old_hash[min_item]
-          min_item = item
-        end
-        
       end
-      
+    else
+        
+      if number <= old_hash[min_item]
+        min_item = item
+      end
     end
   end
   min_item
