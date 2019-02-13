@@ -8,7 +8,8 @@ def key_for_min_value(name_hash)
   min_item = nil
   name_hash.each do |item, number| #item is the key, number is the value
   binding.pry
-    if number <= old_hash[item]
+    if min_item != nil
+    if number <= old_hash[min_item]
       min_item = item
     end
   end
