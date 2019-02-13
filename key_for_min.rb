@@ -15,8 +15,8 @@ def key_for_min_value(name_hash)
         if number <= old_hash[min_item]
           min_item = item
         end
-      
       end
+    end
   end
   min_item
 end
